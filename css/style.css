@@ -1,0 +1,368 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  /* background: #69db5e; */
+  background: #11998e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container {
+  height: 95rem;
+}
+
+nav .logo {
+  height: 5rem;
+  width: 5rem;
+  margin: 0rem 0 0 2rem;
+  position: absolute;
+  top: 1rem;
+}
+
+nav .logo img {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  margin-left: auto;
+  margin-top: 2rem;
+  list-style: none;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Underline From Center */
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 51%;
+  right: 51%;
+  bottom: 0;
+  background: #2098d1;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.hvr-underline-from-center:hover:before,
+.hvr-underline-from-center:focus:before,
+.hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
+}
+
+.header {
+  background-image: url("../img/bg-img.jpg");
+  background-repeat: no-repeat;
+  width: 94.85rem;
+  height: 37rem;
+  margin-top: 2.75rem;
+  z-index: -5;
+  opacity: 0.75;
+}
+
+.box1 {
+  height: 15rem;
+  width: 50rem;
+  position: relative;
+  bottom: 30rem;
+  left: 20rem;
+  color: yellow;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+  z-index: 2;
+}
+
+.box1 p {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: red;
+}
+
+#btn1 {
+  background-color: yellow;
+  color: black;
+  font-size: 1.25rem;
+  width: 10rem;
+  height: 3rem;
+  display: inline-block;
+  border-radius: 10px;
+  position: relative;
+  bottom: 25rem;
+  left: 20rem;
+  border: transparent;
+  cursor: pointer;
+}
+
+#btn1:hover {
+  color: red;
+  transition: all 0.5;
+}
+
+#btn1:active {
+  background-color: rgb(112, 112, 26);
+  color: white;
+}
+
+.box2 {
+  height: 20rem;
+  width: 53rem;
+  position: relative;
+  bottom: 15rem;
+  margin: auto;
+  /* background: rgba(219, 217, 81, 0.719); */
+  background: #00F260;  /* fallback for old browsers */
+background: -webkit-linear-gradient(8deg, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(8deg, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border-radius: 20px;
+}
+
+.box2 img {
+  height: 80%;
+  width: 40%;
+  margin-left: .5rem;
+  margin-top: 1.5rem;
+  border-radius: 20px;
+}
+
+.box2 h1 {
+  position: relative;
+  top: -17rem;
+  left: 20rem;
+  width: 30rem;
+  padding: 0.5rem 0 0 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.box2 p {
+  padding: 0.5rem 0 0 1.5rem;
+  height: 2rem;
+  width: 30rem;
+  position: relative;
+  bottom: 17rem;
+  left: 20.5rem;
+  margin-left: 1.5rem;
+}
+
+#btn2 {
+  background-color: yellow;
+  color: black;
+  font-size: 1.25rem;
+  width: 10rem;
+  height: 3rem;
+  display: inline-block;
+  border-radius: 10px;
+  position: relative;
+  bottom: 12rem;
+  left: 23rem;
+  border: transparent;
+  cursor: pointer;
+}
+
+#btn2:active {
+  background-color: rgb(112, 112, 26);
+  color: white;
+}
+
+#btn2:hover {
+  color: red;
+  transition: all 0.5;
+}
+
+.big-box {
+  width: 94rem;
+  height: 27rem;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* background-color: rgb(131, 163, 221); */
+  background: #4e54c8;  /* fallback for old browsers */
+background: -webkit-linear-gradient(10deg, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(10deg, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border-radius: 15px;
+  position: relative;
+  bottom: 8rem;
+}
+
+.s-box-1,
+.s-box-2,
+.s-box-3 {
+  width: 30rem;
+  height: 25rem;
+  margin: auto;
+  margin: 0.5rem;
+  margin-top: 1rem;
+}
+
+.s-box-1 img,
+.s-box-2 img,
+.s-box-3 img {
+  height: 50%;
+  width: 90%;
+  margin-left: 1.5rem;
+}
+
+.s-box-1 h1,
+.s-box-2 h1,
+.s-box-3 h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1.25rem;
+  margin-left: 1.5rem;
+  color: white;
+}
+
+.s-box-1 p,
+.s-box-2 p,
+.s-box-3 p {
+  margin-left: 1.5rem;
+}
+
+#btn3 {
+  background-color: yellow;
+  color: black;
+  font-size: 1.25rem;
+  width: 12rem;
+  height: 3.5rem;
+  display: inline-block;
+  border-radius: 10px;
+  border: transparent;
+  cursor: pointer;
+  margin: auto;
+  position: relative;
+  top: -1.5rem;
+}
+
+#btn3:hover {
+  color: red;
+  transition: all 0.5;
+}
+
+#btn3:active {
+  background-color: rgb(112, 112, 26);
+  color: white;
+}
+
+#head {
+  position: relative;
+  bottom: 10rem;
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+footer {
+  height: 10rem;
+  width: 94rem;
+  border: 3px solid red;
+  margin: auto;
+  position: relative;
+  top: 5rem;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.holder {
+  height: 250px;
+  background: linear-gradient(to right, #2f80ed, #56ccf2);
+}
+
+.holder .icons {
+  margin: 1.2em;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  z-index: 10;
+}
+
+.holder .icons a {
+  padding: 0.6em 0.7em;
+  color: rgb(44, 44, 44);
+  backdrop-filter: blur(15px);
+  border-radius: 50px;
+  border: 2px solid white;
+  transition: color 0.4s;
+}
+
+.holder .icons a:hover {
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) {
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) {
+}
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+}
