@@ -1,0 +1,66 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons {
+  padding-left: 2rem;
+}
+
+.navbarCollapse,
+body {
+  /* background: #69db5e; */
+  background: #11998e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #38ef7d,
+    #11998e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #38ef7d,
+    #11998e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+
+.nav-item {
+  margin-left: 2rem;
+  position: relative;
+  left: 40rem;
+  color: white;
+}
+
+#ig {
+  color: white;
+}
+
+#wp {
+  color: white;
+}
+
+#twt {
+  color: white;
+}
+
+#dis {
+  color: white;
+}
+
+#ig:hover {
+  color: rgb(241, 85, 137);
+}
+
+#wp:hover {
+  color: rgb(57, 235, 65);
+}
+
+#twt:hover {
+  color: rgb(21, 145, 218);
+}
+
+#dis:hover {
+  color: rgb(13, 70, 175);
+}

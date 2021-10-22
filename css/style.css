@@ -290,7 +290,6 @@ background: linear-gradient(10deg, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Fire
 footer {
   height: 10rem;
   width: 94rem;
-  border: 3px solid red;
   margin: auto;
   position: relative;
   top: 5rem;
@@ -305,6 +304,8 @@ footer {
 .holder {
   height: 250px;
   background: linear-gradient(to right, #2f80ed, #56ccf2);
+  border-radius: 30px;
+
 }
 
 .holder .icons {
@@ -328,6 +329,21 @@ footer {
   color: rgb(255, 255, 255);
 }
 
+#ig:hover{
+  color: rgb(241, 85, 137);
+}
+
+#wp:hover{
+  color: rgb(57, 235, 65);
+}
+
+#twt:hover{
+  color: rgb(21, 145, 218);
+}
+
+#dis:hover{
+  color: rgb(13, 70, 175);
+}
 
 
 
