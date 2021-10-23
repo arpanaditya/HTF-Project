@@ -1,3 +1,16 @@
+.container-fluid{
+  width:100%;
+  background-color: #FFF7AE;
+  height: 45px;
+}
+.nav-link{
+  font-size: large;
+}
+.navbar-nav{
+  width:100%;
+  background-color: #FFF47D;
+  height: 45px;
+}
 .footer {
   display: flex;
   flex-direction: row;
@@ -12,41 +25,43 @@
 .navbarCollapse,
 body {
   /* background: #69db5e; */
-  background: #11998e; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
+  /*background: #11998e; /* fallback for old browsers */
+  /*background: -webkit-linear-gradient(
     to right,
     #38ef7d,
     #11998e
   ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
+ /* background: linear-gradient(
     to right,
     #38ef7d,
     #11998e
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: white;
+  /*color: white;*/
+  color:black;
+  background: #F1F7E7;
 }
 
 .nav-item {
   margin-left: 2rem;
   position: relative;
   left: 40rem;
-  color: white;
+  color: black;
 }
 
 #ig {
-  color: white;
+  color:black;
 }
 
 #wp {
-  color: white;
+  color: black;
 }
 
 #twt {
-  color: white;
+  color:black;
 }
 
 #dis {
-  color: white;
+  color:black;
 }
 
 #ig:hover {

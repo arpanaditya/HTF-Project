@@ -4,22 +4,30 @@
   box-sizing: border-box;
 }
 
-body {
+/*body {
   /* background: #69db5e; */
-  background: #11998e; /* fallback for old browsers */
+  /*background: #001E6C/*#F1F7E7;/* fallback for old browsers */
+  /*
   background: -webkit-linear-gradient(
     to right,
     #38ef7d,
     #11998e
   ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
+  
+  /*background: linear-gradient(
     to right,
     #38ef7d,
     #11998e
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /*
   color: white;
-}
+  */
+/*}*/
 
+
+.nav-link{
+  font-size: large;
+}
 .text-center {
   text-align: center;
   color: white;
@@ -47,7 +55,7 @@ body {
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
-    background: rgb(255, 255, 255);
+    background: #FFD523;
     border-radius: 10px;
 }
 .accordion__question p{
@@ -61,8 +69,8 @@ body {
     padding: 10px;
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(255, 255, 255);
-    background: rgb(82, 170, 122);
+    color: #492F10;
+    background: #F5FDB0;
     border-radius: 10px; 
 }
 .accordion:hover{
