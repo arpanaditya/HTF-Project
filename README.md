@@ -29,16 +29,16 @@ Due to this, either there was no proper awareness of the solar quote installatio
 
 ## Backend
 ### APIs:
-<b> SAWO API </b>
-- We used SAWO API for sign-in/sign-up/log-in 
-<b> Twillio </b>
-- Chatbot for Personal Assistance, that takes fields of the consumers that have queries related to Location, Pricing, Website Navigations, or talking personally to the expert. Also, providing the consumers/website viewers an option to ask queries according to their needs.
-<b> Symbol API </b>
+### SAWO API
+- We used SAWO API for Sign-Up, Sign-In, Log-in  <br><br>
+### Twillio
+- Chatbot for Personal Assistance, that takes fields of the consumers that have queries related to Location, Pricing, Website Navigations, or talking personally to the expert. Also, providing the consumers/website viewers an option to ask queries according to their needs. <br><br>
+### Symbol API
 - Sentiment analysis.
-- Tracking and setting constant promotional emails.
-<b> Coil </b>
-- Redemmed the code and provided Web monetization.
-<b> GoDaddy </b>
+- Tracking and setting constant promotional emails. <br>
+### Coil
+- Redemmed the code and provided Web monetization. <br><br>
+### GoDaddy
 - Hosting Platform
 
 
