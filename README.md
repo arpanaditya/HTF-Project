@@ -25,11 +25,12 @@ Due to this, either there was no proper awareness of the solar quote installatio
 ## Backend
 ### APIs:
 1. We used SAWO API for sign-in/sign-up/log-in 
-2. Twiio and Symbol API:
+2. Twillio
+- Chatbot for Personal Assistance, that takes fields of the consumers that have queries related to Location, Pricing, Website Navigations, or talking personally to the expert. Also, providing the consumers/website viewers an option to ask queries according to their needs.
+4. Symbol API
 - Analysis of sentiments (according to me, it predicts how many consumers who registered for buying are surely gonna buy it)
 - Tracking and setting constant promotional emails(according to me, status batata hai ki kya chal raha hai vendors and fitters ke beech.)
-3. Data storage by Agora (hum demo type de sakte hai)
-4. Web monetization (if we are not going to do it now, include it in fure advancements section.)
+5. Coil: Redemmed the code and provided Web monetization
     
 ### Machine Learning
 Roof Dimensions are detected by Data Classifier Model of neural networks and the roof is detected using Google Static Maps API (the way in which exact dimensions of roof is detected when we use Google Maps in satellite mode.)
@@ -48,9 +49,7 @@ We also intend to solve the problem "15% of the total costing of big solar proje
 - As Solar Energy is a 100% renewable form of energy
 
     -It reduces the waiting period-power cut.
-
     -It makes ZERO Chances of faulty electricity bills.
-
     -It reduces thermal & Radioactive Emission and helps to move towards Zero Carbon Future.
 - Since this model is completely bootstrapped C2C, it acts as a Zomato which Connects Consumers to Vendors resulting in ZERO Capital Investment
 # Drawbacks
@@ -66,7 +65,7 @@ We also intend to solve the problem "15% of the total costing of big solar proje
 - Intermittency: caused by variable weather conditions. It only produces energy when the sun is shining
 - Land Use: it needs a significant amount of land
 # Future Advancements 
-1. We are yet to implement a process by which depending on the consumer's location, the map shows nearby stores where the solar quotes can be bought. (The same way how the google maps show nearby restaurants,places,.)
+1. We implemented a chatbot that takes input queries related to depending on the consumer's location, the map shows nearby stores where the solar quotes can be bought. (The same way how the google maps show nearby restaurants,places,.)
 2. technologies->backend->3rd point if we just show demo, then we can write this point of implementing in future.
 3. Web monetization (if we are not going to do it now, include it in fure advancements section.)
 4. scross/xcross whatever amaan was telling, if we implement that, it ensures that consumers will definitely get their solar quote installed on their rooftop if they have paid for it. It ensures that no fraud/scam is done.
