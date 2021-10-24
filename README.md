@@ -12,7 +12,7 @@
 - Shreya G Bhat
 
 # Problem Statement
-## Old Problem
+## Existing Problem
 In initial days, there existed a communication gap between those who preferred solar panel installation and Vendors/Manufacturers/Fitters.
 Due to this, either there was no proper awareness of the solar quote installation process or the whole process was costlier than one could afford due to several reasons that we have stated in the drawbacks section.
 ## Our Approach
