@@ -5,10 +5,10 @@
 - each webpage ka photo with description.
 - live showcase.
 # Teammates
-Shreya Bhat
-Kavya Ratanpalke
-Aditya Arpan Sahoo
-Amaan Sayyad
+- Shreya Bhat
+- Kavya Ratanpalke
+- Aditya Arpan Sahoo
+- Amaan Sayyad
 # Problem Statement
 ## Old Problem
 In initial days, there existed a communication gap between those who preferred solar panel installation and Vendors/Manufacturers/Fitters.
