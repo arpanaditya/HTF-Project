@@ -6,11 +6,10 @@
 
 
 # Teammates
-- Shreya Bhat
-- Kavya Ratanpalke
 - Aditya Arpan Sahoo
 - Amaan Sayyad
-
+- Kavya Ratanpalke
+- Shreya G Bhat
 
 # Problem Statement
 ## Old Problem
