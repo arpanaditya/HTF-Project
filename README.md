@@ -1,14 +1,17 @@
 # HTF-Project
 
 # X-Vision
-- website link.
-- each webpage ka photo with description.
-- live showcase.
+- Deficit Power Bill Using Solar AI
+- https://getsolar.ai/.
+
+
 # Teammates
 - Shreya Bhat
 - Kavya Ratanpalke
 - Aditya Arpan Sahoo
 - Amaan Sayyad
+
+
 # Problem Statement
 ## Old Problem
 In initial days, there existed a communication gap between those who preferred solar panel installation and Vendors/Manufacturers/Fitters.
@@ -17,11 +20,14 @@ Due to this, either there was no proper awareness of the solar quote installatio
 - Our objective is to modernize the way rooftop solar is sold and contributing towards 100% renewables by using technologies described in the technologies section.
 - Through our website, we enable property owners to enjoy a hassle-free digital solar journey and aid them in making a better solar decision.
 
+
 # Technologies
 ## Frontend 
 - Figma
 - HTML, CSS, JS
 - Java / Python
+
+
 ## Backend
 ### APIs:
 1. We used SAWO API for sign-in/sign-up/log-in 
@@ -31,9 +37,12 @@ Due to this, either there was no proper awareness of the solar quote installatio
 - Analysis of sentiments (according to me, it predicts how many consumers who registered for buying are surely gonna buy it)
 - Tracking and setting constant promotional emails(according to me, status batata hai ki kya chal raha hai vendors and fitters ke beech.)
 5. Coil: Redemmed the code and provided Web monetization
-    
+
+
 ### Machine Learning
 Roof Dimensions are detected by Data Classifier Model of neural networks and the roof is detected using Google Static Maps API (the way in which exact dimensions of roof is detected when we use Google Maps in satellite mode.)
+
+
 # Project Result
 ### Boosts Productivity, Reduces Time & Cost:
 With the help of the satellite images, our model estimates the rooftop area, the solar intensity value, the number of solar panels required to cover the rooftop, estimated costs of installation, cost recovery rate and the total savings on electricity bills.
@@ -43,27 +52,33 @@ We also intend to solve the problem "15% of the total costing of big solar proje
 - Low Thermal Pollution.
 - Less Radioactive Waste.
 - Zero Carbon Emission.
+
+
 # Conclusion
 - The Solar Al Model makes the work more easier and smoother. Due to the effectiveness of this system, user can easily get connected to the nearby vendors which makes it an effortless system.
 - From now, consumers will no longer have to pay unnecessary commissions to the Vendors & fitters.
 - As Solar Energy is a 100% renewable form of energy
-
     -It reduces the waiting period-power cut.
     -It makes ZERO Chances of faulty electricity bills.
     -It reduces thermal & Radioactive Emission and helps to move towards Zero Carbon Future.
 - Since this model is completely bootstrapped C2C, it acts as a Zomato which Connects Consumers to Vendors resulting in ZERO Capital Investment
+
+
 # Drawbacks
 ## Drawbacks of old project
-- ### High Electricity Bill
+### High Electricity Bill
     Lack of Transparency in bill generation and supply
-- ### No Justified Clarifications
+### No Justified Clarifications
     Poor Support Desk, Improper justifications
-- ### Poor Feedback Mechanism
+### Poor Feedback Mechanism
     Gap between vendors, Fitters and Suppliers resulting in high commission.
 
-## Drawbacks of our project
+
+# Drawbacks of our project
 - Intermittency: caused by variable weather conditions. It only produces energy when the sun is shining
 - Land Use: it needs a significant amount of land
+
+
 # Future Advancements 
 1. We implemented a chatbot that takes input queries related to depending on the consumer's location, the map shows nearby stores where the solar quotes can be bought. (The same way how the google maps show nearby restaurants,places,.)
 2. technologies->backend->3rd point if we just show demo, then we can write this point of implementing in future.
