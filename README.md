@@ -15,7 +15,6 @@ Due to this, either there was no proper awareness of the solar quote installatio
 - Through our website, we enable property owners to enjoy a hassle-free digital solar journey and aid them in making a better solar decision.
 
 # Technologies
-(describe below things properly(Aditya), I didnt describe frontend part, also in backend, whatever I wrote, if its wrong correct it(Shreya and Amaan))
 ## Frontend 
 - Figma
 - HTML, CSS, JS
