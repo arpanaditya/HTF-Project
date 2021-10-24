@@ -5,7 +5,10 @@
 - each webpage ka photo with description.
 - live showcase.
 # Teammates
-(names and photos of all 4 of us, if possible our github links with logo of github)
+Shreya Bhat
+Kavya Ratanpalke
+Aditya Arpan Sahoo
+Amaan Sayyad
 # Problem Statement
 ## Old Problem
 In initial days, there existed a communication gap between those who preferred solar panel installation and Vendors/Manufacturers/Fitters.
