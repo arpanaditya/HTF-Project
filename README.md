@@ -28,6 +28,9 @@ Due to this, either there was no proper awareness of the solar quote installatio
 
 
 ## Backend
+### Machine Learning
+Roof Dimensions are detected by Data Classifier Model of neural networks and the roof is detected using Google Static Maps API (the way in which exact dimensions of roof is detected when we use Google Maps in satellite mode.)
+
 ### APIs:
 ### SAWO API
 - We used SAWO API for Sign-Up, Sign-In, Log-in  <br>
@@ -41,9 +44,6 @@ Due to this, either there was no proper awareness of the solar quote installatio
 ### GoDaddy
 - Hosting Platform
 
-
-### Machine Learning
-Roof Dimensions are detected by Data Classifier Model of neural networks and the roof is detected using Google Static Maps API (the way in which exact dimensions of roof is detected when we use Google Maps in satellite mode.)
 
 
 # Project Result
